@@ -1,11 +1,10 @@
-def prime?(an_int)
-  the_end = an_int / 2
-  counter = 0
-  for i in 2..the_end do
-    if an_int % i === 0 do
-      return false
-    end
+def is_prime(n)
+  for d in 2..(n - 1)
+   if (n % d) == 0
+    return false
+   end
   end
-    return true
-end
+
+  true
+ end
     
