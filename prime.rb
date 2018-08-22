@@ -5,6 +5,7 @@ def prime?(an_int)
     if i % 2 === 0 do
       return false
     end
+  end
     return TRUE
   end
     
