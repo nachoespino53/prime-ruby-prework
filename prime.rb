@@ -1,1 +1,2 @@
-# Add  code here!
+def prime?(an_int)
+  
