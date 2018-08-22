@@ -4,7 +4,6 @@ def is_prime(n)
     return false
    end
   end
-
   true
  end
     
